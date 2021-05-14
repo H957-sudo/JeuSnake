@@ -180,7 +180,7 @@ def main_menu():
                     if game.snake.direction != "DOWN":
                         game.snake.direction = "TOP"
 
-        screen.fill(pygame.Color("#00FFFF"))
+        screen.fill(pygame.Color("#99FFCC"))
         # draw_grid()
         game.draw_game_element()
         pygame.display.update()
