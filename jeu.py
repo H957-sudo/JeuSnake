@@ -181,7 +181,7 @@ def main_menu():
                         game.snake.direction = "TOP"
 
         screen.fill(pygame.Color("#99FFCC"))
-        # draw_grid()
+        draw_grid()
         game.draw_game_element()
         pygame.display.update()
         timer.tick(60)
